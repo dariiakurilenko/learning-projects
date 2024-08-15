@@ -10,3 +10,12 @@ It requires username, email and password. Then it checks the length of the usern
    
 	![image](https://github.com/dariiakurilenko/learning-projects/assets/113102018/7a431fd0-fb07-4969-893b-43306a8b0017)
 
+
+3) Weather app
+
+![image](https://github.com/user-attachments/assets/79cd57d9-ba82-4b17-adf4-bc9653ab1f4a)
+
+
+using weather API
+
+link - https://expliicit1-weatherapp.netlify.app/
