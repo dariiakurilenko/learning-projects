@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="search-box">
+            <img src="images/pin-locator.svg" alt="pin-locator" class="search-box__locator">
+            <input type="text" placeholder="Enter your location" class="search-box__input">
+            <button class="search-box__btn">
+                <img src="images/search-locator.svg" alt="search-locator" class="search-box__search-locator">
+            </button>
+        </div>
+        <div class="weather-box">
+            <div class="weather-box__container">
+                <div class="weather-box__info">
+                    <div class="weather-box__weather">
+                        <img src="images/cloud.svg" alt="cloud">
+                        <p class="weather-box__temperature">0<span>℃</span></p>
+                        <p class="weather-box__description">It is cloudy</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="weather-details">
+            <div class="humidity">
+                <img src="images/water.svg" alt="">
+                <div class="humidity__text">
+                    <div class="humidity__info">
+                        <span>0%</span>
+                    </div>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div class="wind">
+                <img src="images/wind.svg" alt="">
+                <div class="wind__text">
+                    <div class="wind__info">
+                        <span>0 Km/h</span>
+                    </div>
+                    <p>Wind</p>
+                </div>
+            </div>
+        </div>
+        <div class="not-found">
+            <div class="not-found__box">
+                <img src="images/error-404.png" alt="error-404" class="not-found__img">
+                <p class="not-found__description">Oops! Location not found. Try again!</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
