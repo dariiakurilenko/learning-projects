@@ -32,5 +32,5 @@ link - https://expliicit1-weatherapp.netlify.app/
 
 A user can type/delete plans
 
-link - https://66be38259b90ff0777d8d45f--lighthearted-heliotrope-540d1f.netlify.app/
+link - https://dariak-todo-list.netlify.app
 
